@@ -73,8 +73,6 @@ function App() {
       setDescription(response.weather[0].description);
       getWeatherIcon(weatherIcons, response.weather[0].id);
     } else {
-      setCity('');
-      setCountry('');
       showError();
     }
   }

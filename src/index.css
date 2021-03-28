@@ -24,7 +24,7 @@ code {
 
 .weather-col {
   margin-top:10px;
-  border: 2px solid #cacadc;
+  background-color: rgba(255,255,255, 0.4);
 }
 
 .weather-title {
